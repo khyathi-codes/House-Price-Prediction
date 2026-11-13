@@ -1,0 +1,39 @@
+{
+  "metrics": {
+    "Linear Regression": {
+      "r2": 0.597,
+      "mae": 50889.0,
+      "rmse": 72669.0
+    },
+    "Decision Tree": {
+      "r2": 0.7306,
+      "mae": 39034.0,
+      "rmse": 59414.0
+    },
+    "Random Forest": {
+      "r2": 0.8092,
+      "mae": 32212.0,
+      "rmse": 49997.0
+    }
+  },
+  "importances": {
+    "median_income": 0.5006,
+    "ocean_INLAND": 0.1446,
+    "population_per_household": 0.1215,
+    "longitude": 0.0561,
+    "latitude": 0.0545,
+    "housing_median_age": 0.0425,
+    "rooms_per_household": 0.0214,
+    "bedrooms_per_room": 0.0195,
+    "total_rooms": 0.0097,
+    "total_bedrooms": 0.0096,
+    "population": 0.0088,
+    "households": 0.0077,
+    "ocean_NEAR OCEAN": 0.0019,
+    "ocean_<1H OCEAN": 0.001,
+    "ocean_NEAR BAY": 0.0007,
+    "ocean_ISLAND": 0.0
+  },
+  "train_rows": 16512,
+  "test_rows": 4128
+}
